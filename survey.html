@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survery-form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container ml-5 ">
+        <div class="row">
+            <div class="col-12 ">
+<h1 id="title">Welcome</h1>
+<p id="description">This is an example.</p>
+<form id="survery-form">
+<label for ="name">Name:</label>
+<br>
+<input type="text" id="name-label" name="name">
+<br>
+<label for ="email:">Email:</label>
+<br>
+<input type="email" id="email-label:" name="email">
+<br>
+<label for ="name">Number:</label>
+<br>
+<input type="number" id="number-label" name="number" min="1" max="5" >
+<br>
+  <label for="dropdown">Which option best describes your current role?:</label>
+  <br>
+  <select id="dropdown" name="dropdown">
+    <option value="option1">Select current role </option>
+    <option value="option2">Full Time Learning</option>
+    <option value="option3">Full Time Job</option>
+  </select>
+<fieldset>
+    <legend>Would you recommend freeCodeCamp to a friend?</legend>
+    <input type="radio" id="option1" name="options" value="option1">
+    <label for="option1">Definitely</label><br>
+    <input type="radio" id="option2" name="options" value="option2">
+    <label for="option2">Maybe</label><br>
+  </fieldset>
+<label for="dropdown">What would you like to see improved?</label>
+<br><label><input type="checkbox" name="fruit" value="apple"> Front-end Projects</label>
+ <br> <label><input type="checkbox" name="fruit" value="banana"> Back-end Projects</label>
+ <br> <label><input type="checkbox" name="fruit" value="orange"> Open Source Community</label>
+<br>
+<br>
+  <label for="comments">Any comments or suggestions?</label>
+  <br>
+  <textarea id="comments" name="comments" rows="3"></textarea>
+ <br> <button type="submit" id="submit">Submit</button>
+</form>
+    </div>
+        <header class="header" ></header>
+    </div>
+    </div>
+</body>
+</html>
